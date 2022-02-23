@@ -20,8 +20,8 @@ export class DataBindingComponent implements OnInit {
     alert('botão clicado!');
   }
 
-  onKeyOn(){
-    console.log();
+  onKeyOn(evento: any){
+    console.log(evento);
   }
 
   getCurtirCurso(){
