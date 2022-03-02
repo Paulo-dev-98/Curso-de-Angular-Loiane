@@ -6,6 +6,7 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import {FormsModule} from '@angular/forms';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputProperty2Component } from './input-property2/input-property2.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 
 
@@ -14,6 +15,7 @@ import { InputProperty2Component } from './input-property2/input-property2.compo
     AppComponent,
     DataBindingComponent,
     InputProperty2Component,
+    OutputPropertyComponent,
   ],
   imports: [
     BrowserModule,
